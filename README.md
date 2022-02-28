@@ -64,3 +64,17 @@ Go as far as you can, you will soon notice some repetition in the code and it's 
   * You will have to setup and managed the connection and pools, as shown in the slides and [documentation](https://node-postgres.com/).
 * We have not supplied you with tests this time, but we encourage you to write tests using a tool like `supertest`. It's a great way to get faster feedback on your code
   * You can also, use PostMan to test your API manually
+
+## Our own steps
+
+First we need to connect our app to our database ideally using pool.
+
+Then we do an exercise using the instructors instead of products.
+
+We need to create an instructors table with sqlscript
+
+We need to query the info to check it is working
+
+we need to start the lab!!
+
+Play with products...

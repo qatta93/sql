@@ -3,8 +3,8 @@ DROP TABLE IF EXISTS Instructors;
 
 CREATE TABLE Instructors
 (
-  Id integer CONSTRAINT order_details_pk PRIMARY KEY,
-  "Name" varchar(120) NOT NULL
+  Instructor_Id integer PRIMARY KEY,
+  Instructor_Name varchar(120) NOT NULL
 );
 
 INSERT INTO Instructors
@@ -23,7 +23,7 @@ VALUES
 
 CREATE INDEX "idx_Instructors_id"
     ON public."instructors" USING btree
-    ("id" ASC NULLS LAST)
+    (Instructor_Id ASC NULLS LAST)
     TABLESPACE pg_default;
 
 
