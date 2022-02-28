@@ -1,0 +1,32 @@
+{
+  "name": "salt-jsfs-sql-products",
+  "version": "1.0.0",
+  "description": "Learn to access a relational database, PostgreSQL, from Node",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appliedtechnology/salt-jsfs-sql-products.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/appliedtechnology/salt-jsfs-sql-products/issues"
+  },
+  "homepage": "https://github.com/appliedtechnology/salt-jsfs-sql-products#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-salt": "^1.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "mocha": "^9.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
